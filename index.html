@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>GitHub Pages</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>now</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #b8b8b8;
+            font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 2.2;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            padding: 40px 25px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #242424;
+        }
+
+        .title {
+            font-size: 22px;
+            color: #dddddd;
+            text-align: center;
+            margin-bottom: 35px;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        .text {
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #888888;
+            font-size: 17px;
+            margin: 25px 0;
+            text-align: center;
+        }
+
+        .end-txt {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #444;
+            text-align: center;
+            color: #707070;
+            font-size: 15px;
+        }
+
+        @keyframes faint {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 0.5; }
+        }
+        .faint-anim {
+            animation: faint 5s ease-in-out infinite;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, GitHub Pages!</h1>
-    <p>one page</p>
+    <div class="container faint-anim">
+        <h2 class="title">当下的生活状态</h2>
+
+        <div class="text">
+            没有工作，也完全不想去找工作。
+        </div>
+        <div class="text">
+            不行社交，也不想出门。
+        </div>
+        <div class="text">
+            作息彻底颠倒，每晚熬到凌晨四五点才入睡，白天一直睡到下午两三点。
+        </div>
+
+        <div class="highlight">
+            半个活人，对世间万物都提不起半点兴趣。
+        </div>
+
+        <div class="text">
+            大概只有自己，在过这样废物的人生。
+        </div>
+
+        <div class="end-txt">
+            我的人生没有意义
+        </div>
+    </div>
 </body>
 </html>
